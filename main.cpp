@@ -7,8 +7,8 @@ int main()
 {
     TextBox box;
     box.setValue("Hello world");
-    string read = box.getValue();
+    string msg = box.getValue();
 
-    cout << read;
+    cout << msg;
     
 }
