@@ -8,6 +8,8 @@ using namespace std;
 class TextBox
 {
 public:
+	TextBox() = default;
+	explicit TextBox(const string& value);
 	string getValue();
 	void setValue(string value);
 
