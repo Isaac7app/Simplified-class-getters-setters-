@@ -5,10 +5,8 @@ using namespace std;
 
 int main()
 {
+    TextBox box{"Hello"};
     TextBox box;
-
-    cout << box.setValue("Hello people");
-    
     return 0;
     
 }

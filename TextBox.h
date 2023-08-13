@@ -9,7 +9,8 @@ class TextBox
 {
 public:
 	TextBox() = default;
-	explicit TextBox(const string& value);
+	TextBox(string value);
+
 	string getValue();
 	void setValue(string value);
 

@@ -3,9 +3,8 @@
 
 using namespace std;
 
-TextBox::TextBox(const string &value) : value{ value }
+TextBox::TextBox(string value):value{value}
 {
-
 }
 
 string TextBox::getValue()
