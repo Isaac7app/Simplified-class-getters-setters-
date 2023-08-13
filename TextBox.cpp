@@ -3,7 +3,7 @@
 
 using namespace std;
 
-TextBox::TextBox(string value):value{value}
+TextBox::TextBox(const string& value):value{value}
 {
 }
 
